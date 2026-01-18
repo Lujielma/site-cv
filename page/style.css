@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Monaco, monospace;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body{
+    background-color: rgb(157, 159, 171);
+    background-image: url(images/mecha2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header{
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+    top: -5vh;
+}
+
+.en-tete{
+    display: grid;
+    grid-template-columns: 80% 5% 8% 4%;
+    align-items: center;
+    background-color: #dae2ff;
+    height: 8vh;
+    position: relative;
+    top: 5vh;
+}
+
+
+#sombre{
+    cursor: pointer;
+    background-color:#798ed9 ;
+    border-radius: 10px;
+    width: 100px
+}
+
+.titre{
+    color: rgb(14, 10, 65);
+    text-align: center;
+    padding-top: 75vh;
+}
+
+.linkedin{
+    width: 30px;
+    transition: width 0.3s ,transform 0.3s;
+}
+
+.linkedin:hover{
+    width: 60px;
+    transform: rotate(360deg);
+}
+
+
+main{
+    padding: 10px;
+}
+
+.Profil{
+    font-size: 50px;
+    background-color: rgb(178, 188, 223);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.sommaire{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#xp{
+    font-size: 12px;
+}
+
+.objet{
+    display: flex;
+    background-color:rgb(151, 166, 221);
+    box-shadow: 10px 10px 10px rgba(46, 54, 148, 0.2);
+    width: 20vw;
+    height: 5vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.objet:hover{
+    transform: scale(120%);
+}
+
+.SousTitre{
+    text-align: center;
+    margin: 80px 0 20px 0;
+    background-color:rgb(151, 166, 221) ;
+    box-shadow: 10px 10px 10px rgba(46, 54, 148, 0.2);
+    border-radius: 20px;
+}
+
+.projet{
+    background-color: rgb(178, 188, 223);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.projetImage{
+    width: 40%;
+    border-radius: 20px;
+}
+
+.Xp{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(171, 184, 231);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#emilie{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.Formations{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(167, 182, 240);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#iim{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.Competences{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(157, 174, 240);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.dark{
+    background-color: #0d1c51;
+    color: rgb(179, 218, 237);
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dae2ff;
+}
+
+.darkFooter{
+    background-color: #0d1635;
+    color: rgb(157, 212, 240);
+}
